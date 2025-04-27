@@ -1,0 +1,82 @@
+# ========================================
+# Help and build files
+# ========================================
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========================================
+# STS / Eclipse IDE
+# ========================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ========================================
+# IntelliJ IDEA
+# ========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ========================================
+# NetBeans
+# ========================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ========================================
+# VS Code
+# ========================================
+.vscode/
+
+# ========================================
+# Maven specific
+# ========================================
+/.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# ========================================
+# System Files
+# ========================================
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Log Files
+# ========================================
+*.log
+
+# ========================================
+# Spring Boot / Java application files
+# ========================================
+/bin/
+/logs/
+
+# ========================================
+# Lombok files
+# ========================================
+*.lombok
+
+# ========================================
+# Application Secrets / Configs
+# ========================================
+*.env
+src/main/resources/application.properties
+src/main/resources/application-*.properties
